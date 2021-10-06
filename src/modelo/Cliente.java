@@ -1,15 +1,12 @@
-
-public class AutenticacaoUtil implements Autenticavel {
-
+package modelo;
+public class Cliente implements Autenticavel{
+	
 	private int senha;
 	private AutenticacaoUtil autenticacaoUtil;
-
 	
-	public AutenticacaoUtil() {
-		this.autenticacaoUtil = new AutenticacaoUtil();
+	public Cliente() {
+		autenticacaoUtil = new AutenticacaoUtil();
 	}
-	
-	
 	
 	public void setSenha(int senha) {
 		this.autenticacaoUtil.setSenha(senha);
@@ -18,5 +15,4 @@ public class AutenticacaoUtil implements Autenticavel {
 	public boolean autentica(int senha) {
 		return this.autenticacaoUtil.autentica(senha);
 	}
-
 }
