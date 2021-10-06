@@ -1,3 +1,5 @@
+package teste;
+
 import modelo.Funcionario;
 import modelo.Gerente;
 

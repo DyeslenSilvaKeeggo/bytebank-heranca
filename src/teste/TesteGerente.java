@@ -1,3 +1,4 @@
+package teste;
 import modelo.Gerente;
 
 public class TesteGerente {
